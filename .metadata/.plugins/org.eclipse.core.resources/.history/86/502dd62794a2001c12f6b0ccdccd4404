@@ -1,0 +1,12 @@
+public class Restaurant {
+	public String[] nama_makanan;
+	public double[] harga_makanan;
+	public int[] stok;
+	public static byte id=0;
+	
+	public Restaurant() {
+		nama_makanan = new String[10];
+		harga_makanan = new double[10];
+		stok = new int[10];
+	}
+}
